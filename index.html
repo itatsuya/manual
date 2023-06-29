@@ -1,0 +1,304 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" whc:version="23.1" lang="ja-JP" dir="ltr">
+
+
+	<head><link rel="shortcut icon" href="custom-image/favicon/rolanddg_favicon.ico"><!----></link><link rel="icon" href="custom-image/favicon/rolanddg_favicon.ico"><!----></link><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="wh-path2root" content=""/><title>ユーザーズマニュアル</title>
+		
+		
+		
+		
+
+
+		
+
+		
+		
+
+		
+		
+
+
+
+		
+
+
+		
+    <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css"/>
+    
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css"/>
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/main-page.css?buildId=2021090310"/>
+    
+    
+    <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"></script>
+    
+    <script data-main="./oxygen-webhelp/app/main-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+    
+
+
+		<!-- Skin resources -->
+		<link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/skin21light.css?buildId=2021090310"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/skin19green.css?buildId=2021090310"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/custombase.css?buildId=2021090310"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/customskin.css?buildId=2021090310"/><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/skin23.css?buildId=2021090310"/>
+		<!-- EXM-36950 - Expand the args.hdf parameter here -->
+		
+		<script>
+    <!--
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M74J592');
+//-->
+</script>
+	<link rel="stylesheet" type="text/css" href="custom.css" data-css-role="args.css"><!----></link></head>
+	<body class="wh_main_page">
+	  <div class="for_mobile_nav">
+		<a href="#content" class="sr-only sr-only-focusable">
+			メインコンテンツにジャンプ
+		</a>
+		<!-- EXM-36950 - Expand the args.hdr parameter here -->
+		
+		
+		<header class="navbar navbar-default wh_header" whc:version="23.1">
+	<div class="container-fluid">
+                <div class="row header-row"> <!-- 2022.02.24 -->
+                    <div class="col-12 col-12-padding"><!-- #23. Add "col-12-padding" to @class to change the left/right padding. 2023.04. -->
+		<!--<div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">-->
+		<!-- #45.  Change navbar-expand-md to -lg. The -lg has a border of 992px. The hamburger icon appears when the border is less than 991px (max-width: 991px). 2023.04.
+		<div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-light">
+		-->
+		<div class="wh_header_flex_container navbar-nav navbar-expand-lg navbar-light">
+		<!-- #24. 2023.04. moved.
+			<div class="wh_logo_and_publication_title_container">
+				<div class="wh_logo_and_publication_title">
+					<whc:include_html href="${webhelp.fragment.before.logo_and_title}"/>
+					<!-\-
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -\->
+					<whc:webhelp_logo class="d-sm-block"/>
+					<whc:include_html href="${webhelp.fragment.after.logo_and_title}"/>
+				</div>
+			</div>
+			-->
+                     <div class=" title_and_search_button ">
+                     		<!-- #24. The logo container has been moved here so that the header alignment will work. 2023.04. -->
+				<div class="wh_logo_and_publication_title_container">
+					<div class="wh_logo_and_publication_title">
+						
+						<!--
+	                            This component will be generated when the next parameters are specified in the transformation scenario:
+	                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+	                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+	                    		-->
+						<a href="index.html" class=" wh_logo d-sm-block "><img src="ksf1685484407077.svg" alt="ユーザーズマニュアル"/></a>
+						
+					</div>
+				</div>
+                                  <!--The output position of the hamburger button has been changed. 2022.02.25 k.ichinose 
+                                  <div class=" toggle_button ">
+				<button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false"
+					aria-label="${i18n(toggle.menu)}" aria-controls="wh_top_menu_and_indexterms_link">
+					<span class="navbar-toggler-icon"/>
+				</button>
+                                   </div>
+                                    2023.04. comment．-->
+                		<div class=" wh_publication_title "><a href="index.html"><span xmlns="" class="booktitle">ユーザーズマニュアル</span></a></div>  <!-- move title are here. 2022.02.01 -->
+                                      <!-- serach button -->
+                             <div class="s_button_b_button"> <!-- add. rm#24663. 2023.05. -->
+		                		<div class="wh_search_button2_div">
+		                                             <button type="button" data-target="#searchForm" id="wh_search_button" value="検索" class="wh_search_button2"></button>
+	                                    </div>
+                                        <!-- #16.#23. The hamburger button is now to the right of the search button. 2023.04. -->
+    		                             <div class=" toggle_button ">
+    				<!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+    				<!-- #40.  Changed @id and @data-toggle to change the animation when the hamburger icon is clicked from the side.  2023.04.
+    				<button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false"
+    					aria-label="${i18n(toggle.menu)}" aria-controls="wh_top_menu_and_indexterms_link">
+    					<span class="navbar-toggler-icon"/>
+    				</button>
+    				-->
+		    				<button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button2" data-toggle="closed" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="メニューを切り替える" aria-controls="wh_top_menu_and_indexterms_link">
+		    					<span class="navbar-toggler-icon"></span>
+		    				</button>
+                                       </div>
+                                       </div> <!-- add. rm#24663. 2023.05. -->
+                                  </div>
+                                   <!--Move the output position to before title.  2022.02.25
+                                  <div class=" toggle_button ">
+				<!-\- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -\->
+				<button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false"
+					aria-label="${i18n(toggle.menu)}" aria-controls="wh_top_menu_and_indexterms_link">
+					<span class="navbar-toggler-icon"/>
+				</button>
+                                   </div>
+                                    -->
+		</div>
+			<!-- #40. Remove the collapse class since it is controlled by bootstrap. 2023.04.
+			<div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+			-->
+			<div class="wh_top_menu_and_indexterms_link navbar-collapse" id="wh_top_menu_and_indexterms_link">
+				
+				<div class=" navdiv "><nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="vyc1600836305508-d1449511e6694-mi" data-tocid="vyc1600836305508-d1449511e6694" data-state="not-ready" class=" topicref " data-id="vyc1600836305508"><span class="title"><a href="vyc1600836305508.html">基本的な扱い方</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="skb1600836436717-d1449511e8345-mi" data-tocid="skb1600836436717-d1449511e8345" data-state="not-ready" class=" topicref " data-id="skb1600836436717"><span class="title"><a href="skb1600836436717.html">出力方法</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="uyu1600836486647-d1449511e8509-mi" data-tocid="uyu1600836486647-d1449511e8509" data-state="not-ready" class=" topicref " data-id="uyu1600836486647"><span class="title"><a href="uyu1600836486647.html">品質と効率を最適化する</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="guy1600836603682-d1449511e9725-mi" data-tocid="guy1600836603682-d1449511e9725" data-state="not-ready" class=" topicref " data-id="guy1600836603682"><span class="title"><a href="guy1600836603682.html">メンテナンス</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="vto1600836710316-d1449511e10809-mi" data-tocid="vto1600836710316-d1449511e10809" data-state="not-ready" class=" topicref " data-id="vto1600836710316"><span class="title"><a href="vto1600836710316.html">トラブルへの対応方法</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="jnp1600836758661-d1449511e13573-mi" data-tocid="jnp1600836758661-d1449511e13573" data-state="not-ready" class=" topicref " data-id="jnp1600836758661"><span class="title"><a href="jnp1600836758661.html">付録</a></span></span></li></ul></nav><div class="indexterms_container for_mobile"><div class=" wh_indexterms_link "><a href="indexTerms.html" title="索引" aria-label="索引語ページに移動する"><span>索引</span></a><button type="submit" id="wh_menu_mobile_close_button2" class="btn btn-primary  mobile_menu_close " data-toggle="close" data-target="#wh_top_menu_and_indexterms_link" aria-expand="false" aria-controls="example-1"></button></div></div></div>
+				<div class="indexterms_container"><div class=" wh_indexterms_link "><a href="indexTerms.html" title="索引" aria-label="索引語ページに移動する"><span>索引</span></a><button type="submit" id="wh_menu_mobile_close_button2" class="btn btn-primary  mobile_menu_close " data-toggle="close" data-target="#wh_top_menu_and_indexterms_link" aria-expand="false" aria-controls="example-1"></button></div></div><!-- #40. for PC view. 2023.04.-->
+				
+			</div>
+                </div>
+              </div>
+	</div>
+</header>
+  		<div class=" wh_search_input navbar-form wh_main_page_search " role="form">
+   			
+               <div>
+   			<div class="wh_welcome">
+   				
+   			</div>
+   			<form id="searchForm" method="get" role="search" action="search.html"><div class=" input_div "><input type="search" placeholder="検索 " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="検索クエリ" required="required"/><button type="submit" class="wh_search_button" aria-label="検索"><span>検索</span></button><button id="wh_close_search_button" class="wh_close_search_button" type="submit" style="margin-left:20px"></button></div></form>
+               </div>
+   			
+   		</div>
+		<div class="wh_content_area index_page" id="content">
+			
+			<!-- This is the placeholder for the main page tiles. -->
+<!-- tlieの均等揃えのため 配置位置を変更. 2022.02.28
+    		<whc:webhelp_search_input class="navbar-form wh_main_page_search" role="form">
+    			<whc:include_html href="${webhelp.fragment.before.main.page.search}"/>
+                <div>
+    			<div class="wh_welcome">
+    				<whc:include_html href="${webhelp.fragment.welcome}"/>
+    			</div>
+    			<whc:component_content/>
+                </div>
+    			<whc:include_html href="${webhelp.fragment.after.main.page.search}"/>
+    		</whc:webhelp_search_input>
+-->
+			<div class="container-fluid wh_content_flex_container">
+				<!-- This is the placeholder for the main page tiles. -->
+				<div class=" wh_tiles "><div class=" wh_tile  " data-id="vyc1600836305508"><a href="vyc1600836305508.html" data-id="vyc1600836305508">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="tmk1608532178742.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">基本的な扱い方</div></div>
+
+						
+						
+					</a></div><div class=" wh_tile  " data-id="skb1600836436717"><a href="skb1600836436717.html" data-id="skb1600836436717">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="bcv1608532186916.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">出力方法</div></div>
+
+						
+						
+					</a></div><div class=" wh_tile  " data-id="uyu1600836486647"><a href="uyu1600836486647.html" data-id="uyu1600836486647">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="kwm1608532190013.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">品質と効率を最適化する</div></div>
+
+						
+						
+					</a></div><div class=" wh_tile  " data-id="guy1600836603682"><a href="guy1600836603682.html" data-id="guy1600836603682">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="pbu1608532175631.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">メンテナンス</div></div>
+
+						
+						
+					</a></div><div class=" wh_tile  " data-id="vto1600836710316"><a href="vto1600836710316.html" data-id="vto1600836710316">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="yyi1608532180304.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">トラブルへの対応方法</div></div>
+
+						
+						
+					</a></div><div class=" wh_tile  " data-id="jnp1600836758661"><a href="jnp1600836758661.html" data-id="jnp1600836758661">
+
+						
+						
+
+
+						<img class=" wh_rdg_tile_image " src="psu1608532183300.svg"/>
+
+						
+						
+						
+
+						
+						
+						<div class=" wh_rdg_tile_title "><div class=" wh_rdg_tile_title_cell ">付録</div></div>
+
+						
+						
+					</a></div></div>
+				<!--
+                    This is the placeholder for the main page entries
+                    presented in a tree-like fashion.
+                -->
+				
+				
+			</div>
+		</div>
+		<!-- #40. add @id --><footer class="navbar navbar-default wh_footer" id="footer-content" whc:version="22.0">
+  <div xmlns="" class="copyright_info footer-container"><p class="copyright_years">FA03946/R3-230602</p><p class="organization"><span>Copyright © 2023 Roland DG Corporation  <br/><a class="oxyFooter" href="https://www.rolanddg.co.jp/" target="_blanck">https://www.rolanddg.co.jp/</a></span></p>
+    
+    <a xmlns="http://www.w3.org/1999/xhtml" href="https://www.rolanddg.co.jp/" class=" wh_footer_logo d-sm-block " target="_blanck"><img src="jcs1590285622764.svg" alt="ユーザーズマニュアル"/></a> <!-- footer logo compornant add. 2022.01.21 -->
+  </div>
+</footer>
+		<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M74J592" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+		</div>
+	</body>
+</html>
